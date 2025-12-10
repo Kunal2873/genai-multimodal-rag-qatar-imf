@@ -1,0 +1,16 @@
+langchain==0.2.1
+faiss-cpu==1.7.4
+sentence-transformers==2.6.1
+streamlit==1.31.0
+pypdf==4.2.0
+pdfplumber==0.11.0
+camelot-py==0.11.0
+pillow==10.2.0
+pytesseract==0.3.10
+camelot
+# Mistral	7B
+Ghostscript 10.06.0
+numpy==1.26.4
+pandas==2.3.3
+openpyxl==3.1.5
+pillow==10.2.0

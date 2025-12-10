@@ -67,3 +67,13 @@ if query:
 
     with st.expander("Retrieved Context Chunks"):
         st.write(context)
+
+if st.button("Generate Summary"):
+    st.info("Generating summary from retrieved context...")
+    context, citations = retriever.fetch_context("Qatar economic overview")
+    summary = llm.summarize(context, citations)
+    st.subheader("Summary")
+    st.write(summary)
+
+
+
